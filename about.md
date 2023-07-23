@@ -1,4 +1,5 @@
 2023
+- PyTorch has channels as first dimension, so can't directly display using plt.imshow. Use permute(1,2,0) to put channels as the last dimension.
 - Memento mori: a beautiful phrase to express inevitability of death. Be kind. [Link](https://news.ycombinator.com/item?id=36827438)
 - Nail cuter has a lock mode
 - bae means baby
